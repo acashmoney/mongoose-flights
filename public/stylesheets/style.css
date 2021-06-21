@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #FFFDD0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  background-color: green;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, blue, green);
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+#flight-details {
+  text-decoration: underline;
+  background-color: transparent;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+}
